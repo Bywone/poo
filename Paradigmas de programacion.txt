@@ -1,0 +1,13 @@
+Paradigmas de programación:
+
+Los paradigmas de programación son distintos métodos para escribir código, son reglas que se establecen para escribir código y manipular los datos que se declaren, es una estructura o serie de pasos que se tienen que realizar para que funcione correctamente, el cascarón del proyecto.
+
+Existen varios tipos de paradigmas, los cuales son:
+
+1.- Paradigma imperativo: Son instrucciones de como se tienen que realizar las cosas, un ejemplo sería que en el código primero se haga algo, luego lo segundo y luego lo tercero, que tenga un orden y no haga lo que quiera.
+
+2.- Paradigma declarativo: Aquí se describe que se quiere conseguir u obtener, pero no en la forma en que lo hace. Un ejemplo sería en una consulta SQL, se pone en una consulta lo que se quiere pero no se le dice como acceder.
+
+3.- Paradigma orientado a objetos: Aquí se organiza o agrupa el código de acuerdo a lo que se tiene que hacer, se agrupan por datos, objetos, comportamiento para que interactúen entre ellos.
+
+Por lo que entendí, cada paradigma tiene una forma de solucionar un problema que se presente.
