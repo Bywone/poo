@@ -1,10 +1,10 @@
 public class Persona {
-
     private String nombre;
     private int edad;
     private double altura;
     private String genero;
     private String nacionalidad;
+    Estudiante estudiante;
 
     // aqui se define el constructor para que funcione el main, si no lo tiene no va a funcionar
     public Persona(String nombre, int edad, double altura, String genero, String nacionalidad) {

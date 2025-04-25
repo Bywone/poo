@@ -20,5 +20,24 @@ public class Main {
         p.caminar();
         p.comer();
         p.dormir();
+
+        System.out.println("Información de la Persona:");
+        System.out.println("Nombre: " + p.getNombre());
+        System.out.println("Edad: " + p.getEdad());
+        System.out.println("Altura: " + p.getAltura());
+        System.out.println("Género: " + p.getGenero());
+        System.out.println("Nacionalidad: " + p.getNacionalidad());
+
+        // Crear un Estudiante Universitario
+        EstudianteUniversitario eu = new EstudianteUniversitario("Ana", 22, 1.65, "Femenino", "Argentina", "C987654", "Ingeniería", "Universidad Nacional");
+        System.out.println("\nInformación del Estudiante Universitario:");
+        System.out.println("Nombre: " + eu.getNombre());
+        System.out.println("Edad: " + eu.getEdad());
+        System.out.println("Altura: " + eu.getAltura());
+        System.out.println("Género: " + eu.getGenero());
+        System.out.println("Nacionalidad: " + eu.getNacionalidad());
+        System.out.println("Matrícula: " + eu.getMatricula());
+        System.out.println("Carrera: " + eu.getCarrera());
+        System.out.println("Universidad: " + eu.getUniversidad());
     }
 }
