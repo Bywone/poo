@@ -5,7 +5,7 @@ public class Persona {
     private String genero;
     private String nacionalidad;
     Estudiante estudiante;
-
+    Laptop laptop;
     // aqui se define el constructor para que funcione el main, si no lo tiene no va a funcionar
     public Persona(String nombre, int edad, double altura, String genero, String nacionalidad) {
         this.nombre = nombre;
