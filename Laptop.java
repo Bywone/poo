@@ -11,7 +11,15 @@ public class Laptop {
         this.modelo = modelo;
         this.color = color;
         this.precio = precio;
-    }    
+    }  
+    void bateria(){
+        System.out.println("No tiene pila mano, ponla a cargar");
+    }
+    //overload
+    public void bateria(int porcentaje){
+        System.out.println("Tiene de batería: " + porcentaje + "% ");
+    }
+    
     Laptop(String Laptop) {
         this.Laptop = Laptop;
     }      

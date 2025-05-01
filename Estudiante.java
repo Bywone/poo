@@ -25,7 +25,26 @@ public class Estudiante extends Persona {
     void caminar() {
         System.out.println(getNombre() + " camina rápido para llegar a clase.");
     }
-    
+    //overload
+    public void caminar(int distancia){
+        System.out.println(" está recorriendo: " + distancia + " para llegar a su clase");
+    }    
+    @Override
+    void dormir(){
+        System.out.println(getNombre() + " está soñando con ella");
+    }
+    //overload
+    public void dormir(int horas){
+        System.out.println(getNombre() + "se mimió " + horas + " horas, no fue a chambear");
+    }
+    @Override
+    void comer(){
+        System.out.println(getNombre() + " le dio hambre y fue a comer papas");
+    }
+    //overload
+    public void comer(int cantidadPapas){
+        System.out.println(getNombre() + " compró: " + cantidadPapas + " bolsas de papas con salsa valentina.");
+    }
     public String getMatricula(){
         return matricula;
     }

@@ -13,7 +13,7 @@ public class Main {
         // Agregar un Estudiante (hijo de Persona)
         Estudiante e = new Estudiante("Enrique", 20, 1.75, "Masculino", "Mexicano", "12345", "Ingeniería");
         personas.add(e);
-
+        //overload es cuando se asigna parametros en un metodo, overwrite es cuando no tiene parametros
         
         for (Persona persona : personas) {
             System.out.println("-----");
@@ -33,6 +33,17 @@ public class Main {
                 Estudiante est = (Estudiante) persona;
                 System.out.println("Matrícula: " + est.getMatricula());
                 System.out.println("Carrera: " + est.getCarrera());
+
+                // Llamadas a métodos override
+                est.hablar();
+                est.comer();    // override
+                est.caminar();  // override
+                est.dormir();   // override
+
+                // Llamadas a métodos overload
+                est.comer(3);         // overload
+                est.caminar(5);       // overload
+                est.dormir(8);        // overload
             }
         }
     }
