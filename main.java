@@ -44,6 +44,11 @@ public class Main {
                 est.comer(3);         // overload
                 est.caminar(5);       // overload
                 est.dormir(8);        // overload
+            }    
+
+            Laptop porcentaje = new Laptop(); 
+            if (porcentaje instanceof Laptop) {
+            ((Laptop) porcentaje).bateria(85);
             }
         }
     }
